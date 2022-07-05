@@ -109,3 +109,28 @@ int Gen_token(char str[], char Token[][10]) {
   }
   return i;
 }
+
+/*
+
+OUTPUT:-
+
+Input.txt
+#include<stdio.h>
+main()
+{
+float pi=3.14,r,a;
+a=pi*r*r;
+printf("a=%f",a);
+return 0;
+}
+
+Output.txt
+#include<stdio.h>
+main()
+{
+floatpi=3.14,r,a;
+a=3.14*r*r;
+printf("a=%f",a);
+return0;
+
+*/
